@@ -38,7 +38,7 @@ var a = "Something";
 //Example 2
 // The JS engine goes through the code and allocates necessary memory space for Primitive types and Objects.
   // Note: The JS engine does not call the three() function on the first scan.
-// The next run through the code is when the engine starts applying what stored in memory.
+// The next run through the code is when the engine starts applying what's stored in memory.
 // Remember, each function creates it's own execution context.
 // Technically, the first function is the gobal() object, but we will refer to three() as being the first on the stack.
 // The engine will call three() only to see that it is calling two().
